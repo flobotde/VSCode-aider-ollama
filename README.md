@@ -13,19 +13,20 @@ ollama run deepseek-coder-v2
 Start vscode and open the extension marketplace and type 'Aider' in the search box
 ![Alt 'Search for Aider in VSCode extension marketplace'](doc/img/vscode-marketplace.png "VSCode Marketplace")
 
-Tipp: Maybe you should restart VSCode... 😇
-
 ## Configure Ollama Model
-Open a Terminal in VSCode and enter
+Put this line in you .*rc file (.bashrc, .zshrc,....) and start a new 
 Linux/Mac
 ```console
 export OLLAMA_API_BASE=http://127.0.0.1:11434>
 ```
 
-Windows (not tested, restart shell after setx)
+Some to Windows (TODO: not tested, and don't know the filename to put in...)
 ```console
 setx   OLLAMA_API_BASE http://127.0.0.1:11434
 ```
+
+Tipp: Restart VSCode... 😇
+
 <ol>
 <li>Select AI Model: 🤖 Fire up the command palette (Ctrl+Shift+P) and search for "Aider: Select Model" command.</li>
 <li>Add Custom Model: 
@@ -46,7 +47,8 @@ setx   OLLAMA_API_BASE http://127.0.0.1:11434
 </ol>
 
 ## Tipps
-* add tho following line to your .gitignore file in the projectyou are working with aider (if you have one, otherwise i woukd suggest to create one, aider will also suggest it to do so on startup ;)
-```.gitignore
+* add the following line to your .gitignore file in the projectyou are working with aider (if you have one, otherwise i woukd suggest to create one, aider will also suggest it to do so on startup ;)
+#### **`.gitignore`**
+```console
 .aider*
 ```
