@@ -47,8 +47,13 @@ Tipp: Restart VSCode... 😇
 </ol>
 
 ## Tipps
-* add the following line to your .gitignore file in the projectyou are working with aider (if you have one, otherwise i woukd suggest to create one, aider will also suggest it to do so on startup ;)
+### ignore aider files in your projects
+add the following line to your .gitignore file in the projectyou are working with aider (if you have one, otherwise i woukd suggest to create one, aider will also suggest it to do so on startup ;)
 #### **`.gitignore`**
 ```console
 .aider*
 ```
+
+### select another ollama model
+You can try any other ollama model besides deepseek-coder-v2, e.g. the qwen-2.5 seems to be promising.
+To do so you just have torepeat the steps above and replace deepseek-coder-v2 with your model name (s. https://ollama.com/library)
