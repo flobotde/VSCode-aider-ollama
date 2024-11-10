@@ -1,4 +1,8 @@
 # Howto install aider as VSCode extension with local running ollama
+Hey! This is a howto to install the VS Code aider plugin with an local ollama model.
+
+## Prerequisites
+Working aider installed on your system (see https://aider.chat/docs/install.html)
 
 ## Run ollama
 Please visit to the official ollama docs and find out, how to run ollama models on your local System.
