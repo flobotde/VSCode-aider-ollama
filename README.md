@@ -30,7 +30,7 @@ setx   OLLAMA_API_BASE http://127.0.0.1:11434
 <li>1. Start Aider: 🏁 Fire up the command palette (Ctrl+Shift+P) and search for "Aider: Open".</li>
 <li>2. Select AI Model: 🤖 Pick your AI companion with the "Aider: Select Model" command.</li>
 <li>2.1. Add Custom Model
-![Alt 'Add Custom Model to Aider in VSCode'](doc/img/vscode_aider_selectmodel.png "VSCode Add Custom Model")</li>
+<img src='doc/img/vscode_aider_selectmodel.png' alt="Add Custom Model to Aider in VSCode">
 <li>2.2 Give the model a name: 'deepseek-coder-v2'</li>
 <li>2.3 Type in the model run command: '--model ollama/deepseek-coder-v2 --no-show-model-warnings'</li>
 <li>3. Access Menu: 📊 Click the Aider status bar item or use the command palette for all Aider functions.</li>
