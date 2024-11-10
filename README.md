@@ -27,14 +27,14 @@ Windows (not tested, restart shell after setx)
 setx   OLLAMA_API_BASE http://127.0.0.1:11434
 ```
 <ol>
-<li>1. Start Aider: 🏁 Fire up the command palette (Ctrl+Shift+P) and search for "Aider: Open".</li>
-<li>2. Select AI Model: 🤖 Pick your AI companion with the "Aider: Select Model" command.</li>
-<li>2.1. Add Custom Model
+<li>Start Aider: 🏁 Fire up the command palette (Ctrl+Shift+P) and search for "Aider: Open".</li>
+<li>Select AI Model: 🤖 Pick your AI companion with the "Aider: Select Model" command.</li>
+<li>Add Custom Model
 <img src='doc/img/vscode_aider_selectmodel.png' alt="Add Custom Model to Aider in VSCode">
-<li>2.2 Give the model a name: 'deepseek-coder-v2'</li>
-<li>2.3 Type in the model run command: '--model ollama/deepseek-coder-v2 --no-show-model-warnings'</li>
-<li>3. Access Menu: 📊 Click the Aider status bar item or use the command palette for all Aider functions.</li>
-<li>4. Refactor/Modify Code: ✨ Select code, right-click, and let Aider work its magic.</li>
-<li>5. Manage Files: 📁 Use the explorer context menu to add or ignore files in Aider.</li>
-<li>6. Generate README: 📝 Create a stunning project README with "Aider: Generate README.md".</li>
+<li>Give the model a name: 'deepseek-coder-v2'</li>
+<li>Type in the model run command: '--model ollama/deepseek-coder-v2 --no-show-model-warnings'</li>
+<li>Access Menu: 📊 Click the Aider status bar item or use the command palette for all Aider functions.</li>
+<li>Refactor/Modify Code: ✨ Select code, right-click, and let Aider work its magic.</li>
+<li>Manage Files: 📁 Use the explorer context menu to add or ignore files in Aider.</li>
+<li>Generate README: 📝 Create a stunning project README with "Aider: Generate README.md".</li>
 </ol>
