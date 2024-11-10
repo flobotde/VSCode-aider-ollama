@@ -37,7 +37,7 @@ setx   OLLAMA_API_BASE http://127.0.0.1:11434
 <li>(Optional) Set Startup Params: ⚙️ Fire up the command palette (Ctrl+Shift+P) and search for "Aider: Set Startup Params"
 <img src='doc/img/vscode_aider_set_startup_params_01.png' alt="Set aider startup params">
     <ol><li>Type in: '--no-show-model-warnings' to let aider ignore warnings about the local ollama model
-    <img src='doc/img/vscode_aider_set_startup_params_01.png' alt="Set aider startup params"></li></ol>
+    <img src='doc/img/vscode_aider_set_startup_params_02.png' alt="Set aider startup params"></li></ol>
 <li>Start Aider: 🏁 Fire up the command palette (Ctrl+Shift+P) and search for "Aider: Open".</li>
 <li>Access Menu: 📊 Click the Aider status bar item or use the command palette for all Aider functions.</li>
 <li>Refactor/Modify Code: ✨ Select code, right-click, and let Aider work its magic.</li>
