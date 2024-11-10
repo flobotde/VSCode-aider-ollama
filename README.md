@@ -20,7 +20,7 @@ Linux/Mac
 export OLLAMA_API_BASE=http://127.0.0.1:11434>
 ```
 
-Some to Windows (TODO: not tested, and don't know the filename to put in...)
+Same to Windows (TODO: not tested, and don't know the filename to put in...)
 ```console
 setx   OLLAMA_API_BASE http://127.0.0.1:11434
 ```
@@ -48,7 +48,7 @@ Tipp: Restart VSCode... 😇
 
 ## Tipps
 ### ignore aider files in your projects
-add the following line to your .gitignore file in the projectyou are working with aider (if you have one, otherwise i woukd suggest to create one, aider will also suggest it to do so on startup ;)
+Add the following line to your .gitignore file in the projectyou are working with aider (if you have one, otherwise i woukd suggest to create one, aider will also suggest it to do so on startup ;)
 #### **`.gitignore`**
 ```console
 .aider*
@@ -56,4 +56,5 @@ add the following line to your .gitignore file in the projectyou are working wit
 
 ### select another ollama model
 You can try any other ollama model besides deepseek-coder-v2, e.g. the qwen-2.5 seems to be promising.
-To do so you just have torepeat the steps above and replace deepseek-coder-v2 with your model name (s. https://ollama.com/library)
+To do so you have to repeat the steps described above and replace deepseek-coder-v2 with your model name.
+See the list of available models here https://ollama.com/library
